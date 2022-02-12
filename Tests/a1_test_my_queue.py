@@ -4,6 +4,7 @@ from Tasks.a1_my_queue import Queue
 
 my_queue = Queue()
 
+
 #commit изменения
 class MyTestCase(unittest.TestCase):
     def setUp(self):

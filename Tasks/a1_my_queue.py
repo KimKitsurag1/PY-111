@@ -41,7 +41,6 @@ class Queue:
         elif ind > len(self._queue) - 1:
             return None
         return self._queue[ind]
-        print(ind)
 
     def clear(self) -> None:
         """

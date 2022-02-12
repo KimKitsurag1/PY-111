@@ -1,5 +1,5 @@
 """
-My little Queue.
+My little Queue
 """
 from typing import Any
 

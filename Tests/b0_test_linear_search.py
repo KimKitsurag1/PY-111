@@ -2,7 +2,7 @@ import unittest
 import random
 from Tasks.b0_linear_search import min_search
 
-
+#test
 class MyTestCase(unittest.TestCase):
     errstr = "Index of minimal element is wrong, right answer: "
 

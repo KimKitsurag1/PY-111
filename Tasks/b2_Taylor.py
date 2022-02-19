@@ -11,8 +11,14 @@ def ex(x: Union[int, float]) -> float:
     :param x: x value
     :return: e^x value
     """
+    sum_ = 1 + x
+    elem = x
+    for i in range(2, 10):
+        elem = (elem * x) / i
+        sum_ += elem
+
     print(x)
-    return 0
+    return sum_
 
 
 def sinx(x: Union[int, float]) -> float:
@@ -22,5 +28,10 @@ def sinx(x: Union[int, float]) -> float:
     :param x: x value
     :return: sin(x) value
     """
+    sum_ = x
+    elem = x
+    for i in range(3, 30,2):
+        elem = (elem*x*x)/(i*(i-1))*(-1)
+        sum_ += elem
     print(x)
-    return 0
+    return sum_

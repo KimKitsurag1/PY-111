@@ -1,7 +1,7 @@
 import unittest
 from Tasks.b1_binary_search import binary_search
 
-
+#test
 class MyTestCase(unittest.TestCase):
     @classmethod
     def setUpClass(cls):

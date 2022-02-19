@@ -30,9 +30,8 @@ def sinx(x: Union[int, float]) -> float:
     """
     sum_ = x
     elem = x
-    signum = -1
     for i in range(3, 30,2):
-        elem = (elem*x*x)/(i*(i-1))*(signum)
+        elem = (elem*x*x)/(i*(i-1))*(-1)
         sum_ += elem
     print(x)
     return sum_

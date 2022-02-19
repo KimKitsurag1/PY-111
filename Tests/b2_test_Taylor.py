@@ -2,7 +2,7 @@ import unittest
 import math
 from Tasks.b2_Taylor import ex, sinx
 
-
+#test
 class MyTestCase(unittest.TestCase):
     def test_ex(self):
         const = 1.55433
